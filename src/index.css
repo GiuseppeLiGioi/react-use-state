@@ -8,3 +8,37 @@ html{
   font-family: sans-serif;
 }
 
+.container_header{
+  background-color: #F8F9FA;
+  color: black;
+  padding: 20px;
+}
+
+.Button_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ 
+  
+}
+.btn{
+background-color:#0D6EFD; 
+color: white;
+padding: 15px;
+border-radius: 10px;
+}
+
+
+.btn:hover{
+background-color: #FFC107;
+color: black;
+}
+
+.description{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 15px; 
+}

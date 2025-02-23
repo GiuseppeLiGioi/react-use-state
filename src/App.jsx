@@ -1,14 +1,16 @@
-
+import Header from "../src/assets/components/Header";
+import Main from "../src/assets/components/Main";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <h1>Hello World!</h1>
-  
+      <Header />
+      <Main />
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
+
