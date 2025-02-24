@@ -1,7 +1,8 @@
 function Button({ lang, onClick }) {
+    const {id, title, description} = lang;
     return (
         <button className="btn" onClick={onClick}>
-            {lang.title}
+            {title}
         </button>
     );
 }
